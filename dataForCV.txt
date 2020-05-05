@@ -1,0 +1,99 @@
+var dataForCV = {
+	firstName: 'Dino',
+	lastName: 'Grbovic',
+	jobTitle: 'Programer',
+	imageUrl: 'https://gmsrp.cachefly.net/images/20/03/07/a022517af863ddbb69ab52288e05fc7c/960.jpg',
+	adress: {
+		country: 'Crna Gora',
+		city: 'Cetinje',
+		street: 'IV Proleterske S-54'
+	},
+	phone: '069094994',
+	email: 'dino-grbovic@oykos-hub.com',
+	website: 'www.google.com',
+	social: {
+		facebook: {
+			name: 'Dino Grbovic',
+			icon: 'fa-fb',
+			url: 'https://www.facebook.com/dino.grbovic.3'
+		},
+		linkedin: {
+			name: 'Dino Grbovic',
+			icon: 'fa-fb',
+			url: 'https://www.linkedin.com/in/dino-grbovic-1340bb10a/'
+		},
+		instagram: {
+			name: 'dinche91',
+			icon: 'fa-fb',
+			url: '@dinche91'
+		},
+		twitter: {
+			name: 'Twitter',
+			icon: 'fa-fb',
+			url: ''
+		},
+		skype: {
+			name: 'Dino Grbovic',
+			icon: 'fa-fb',
+			url: ''
+		},
+		github: {
+			name: 'dino-grbovic',
+			icon: 'fa-fb',
+			url: 'https://github.com/dino-grbovic'
+		}
+	},
+	references: [{
+        name: 'Filip Andjelic',
+        jobTitle: 'Programer',
+        phone: '069888999',
+        email: 'filip@gmail.com'
+	}],
+	experience: [{
+		start: '01.01.2019.',
+		end: '01.09.2019.',
+		company: 'Right Cars',
+		jobTitle: 'Poslovni partner',
+		description: 'Svakodnevna komunikacija sa klijentima. Realizacija administrativnih aktivnosti neophodnih da bi se zaključilo izdavanje vozila na određeni vremenski period'
+	},
+	{
+		start: '15.01.2018.',
+		end: '15.06.2018.',
+		company: 'Digital Control',
+		jobTitle: 'Junior Web Programer',
+		description: 'Programiranje aplikacija korištenjem Microsoft Net tehnologija Rad u HTML-u, CSS, Javascriptu, Učenje Angular framework-a'
+	},
+	{
+		start: '15.01.2017.',
+		end: '15.10.2017.',
+		company: 'Organizacija Crvenog Krsta Cetinje',
+		jobTitle: 'IT Podrska',
+		description: 'Rad na zajedničkim projektima sa Organizacijama Crvenog krsta crnogorskih opština, Priprema dopisa namijenjenim državnim i međunarodnim institucijama, Koordinacija aktivnosti prilikom organizovanja događaja, Učešće u pripremi Izvještaja o radu Crvenog krsta Cetinje za 2017. godinu'
+	}],
+	education: [{
+		start: '01.09.2005.',
+		end: '01.06.2009.',
+		school: 'JU Gimnazija Cetinje',
+		degree: 'IV Stepen',
+		description: 'Srednja strucna sprema'
+	},
+	{
+		start: '01.09.2009.',
+		end: '01.06.2019.',
+		school: 'Prirodno-matematicki Fakultet Podgorica',
+		degree: 'VII Stepen',
+		description: 'Specijalista racunarstva i informacionih tehnologija'
+	}],
+	skills: [{
+		name: 'HTML',
+		percent: '50'
+	},
+	{
+		name: 'CSS',
+		percent: '50'
+	},
+	{
+		name: 'Javascript',
+		percent: '33'
+	}]
+};

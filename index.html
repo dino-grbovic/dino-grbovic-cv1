@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<head>
+    <title>CV</title>
+    <link rel="stylesheet" type="text/css" href="styles/application.css">
+    <link rel="stylesheet" type="text/css" href="styles/media-queries.css">
+    <link rel="stylesheet" type="text/css" href="styles/animation.css">
+    <script src="https://kit.fontawesome.com/13887d64b4.js" crossorigin="anonymous"></script>
+    <script src="script/config.js"></script>
+    <script src="script/script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="left-column">
+            <div id="profile-image">
+                <img src="images/dino1.jpg">
+            </div>
+            <div id="info-wrapper" class="section-left">
+                <div class="header-wrapper">
+                    <h4><span>Contact Me </span></h4>
+                </div>
+                <div class="content-wrapper">
+                    <div id="info-item" class="content-item">
+                        <div class="icon">
+                            <span class="icon fa-stack">
+                                <i data-class="nameIcon"></i>
+                            </span>
+                        </div>
+                        <div class="text-wrapper">
+                            <p data-label="name" class="label">Name</p>
+                            <p data-value="name" class="data">Arieta Benson</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="education-wrapper" class="marginb-15">
+                    <div class="header-wrapper">
+                        <h4>Education</h4>
+                    </div>
+                    <div class="content-wrapper">
+                        <div id="education-item" class="content-item">       
+                            <div class="text-wrapper">
+                                <p data-value="education.school" class="label">DP Design Development</p>
+                                <p data-value="education.degree" class="sublabel">Your first position</p>
+                                <p data-value="education.description" class="data">Some text</p>
+                            </div>
+                            <div class="timespan">
+                                <span data-value="education.start">2015</span><span>-</span><span data-value="education.end">2016</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div id="skills-wrapper" class="marginb-15">
+                    <div class="header-wrapper">
+                        <h4>Software Skills</h4>
+                    </div>
+                    <div class="timeline-wrapper">
+                        <div id="skills-item" class="content-item">
+                            <div class="text-wrapper">
+                                <p class="label" data-value="skills.name">DP Design Development</p>
+                                <div class="progress">
+                                    <div class="fill" data-fill="skills.percent"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div id="right-column">
+            <div id="header-right">
+                <h1 id="full-name">Arieta Benson</h1>
+                <h4 id="job-name">Graphic and Web Designer</h4>
+                <p>Odgovoran sam u poslu, usmjeren na realizaciju postavljenih ciljeva istovremeno poštujući definisane rokove. Od pretpostavljenih sam uvijek dobijao pozitivne komentare o svom učinku. Posjedujem vještine potrebne za timski rad, ali sam istovremeno spreman da, kada to zahtijevaju okolnosti, preuzmem inicijativu i ulogu lidera. Imajući u vidu dosadašnje radno iskustvo, ono što mi je uvijek bila dobra preporuka za radni angažman je izražena komunikativnost, povezanost sa klijentima/gostima, kao i visok prag tolerancije na stres i sposobnost za rad pod pritiskom. </p>
+            </div>
+            <div id="work-wrapper" class="marginb-15">
+                <div class="header-wrapper">
+                    <h4>Work Experience</h4>
+                </div>
+                <div class="content-wrapper">
+                    <div id="work-item" class="content-item">
+                        
+                        <div class="timespan" >
+                            <span data-value="work.start">2015</span><span data-value="work.end">2016</span>
+                        </div>
+                        <div class="timeline">
+                            <div class="line"></div>
+                            <div class="point"></div>
+                        </div>
+                            <div class="text-wrapper">
+                                <div class="toggler-wrapper border-bottom margin-left-10">
+                                <p data-value="work.company" class="label">DP Design Development <span class="toggler">+</span></p>
+                                <p data-value="work.jobTitle" class="sublabel">Your first position</p>
+                                </div>
+                                <p data-value="work.description" class="data hidden animation-duration">Some Text</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

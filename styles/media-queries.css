@@ -1,0 +1,39 @@
+@media only screen and (max-width: 650px) {
+    body {
+        margin: 0;
+    }
+
+    #wrapper {
+        display: flex;
+        width: 100%;
+        min-width: auto;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .timespan {
+        min-width: auto;
+        font-size: 12px;
+    }
+
+    .text-wrapper p {
+        padding-right: 0;
+        text-align: justify;
+        font-size: 12px;
+    }
+
+    .section-left {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+
+#skills-wrapper .content-item {
+    /* max-width: 48%; */
+    min-width: 100%;
+    margin: 10px 0;
+}
+
+}
